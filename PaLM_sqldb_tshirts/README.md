@@ -1,7 +1,7 @@
 
 # AtliQ Tees: Talk to a Database  
 
-This is an end to end LLM project based on Google Palm and Langchain. We are building a system that can talk to MySQL database. 
+This is an end to end LLM project based on Google Palm and Langchain. A system that can talk to MySQL database. 
 User asks questions in a natural language and the system generates answers by converting those questions to an SQL query and
 then executing that query on MySQL database. 
 AtliQ Tees is a T-shirt store where they maintain their inventory, sales and discounts data in MySQL database. A store manager 
@@ -31,12 +31,12 @@ The system is intelligent enough to generate accurate queries for given question
 1.Clone this repository to your local machine using:
 
 ```bash
-  git clone https://github.com/codebasics/langchain.git
+  git clone https://github.com/Jkanishkha0305/End-to-End-LLM-Projects.git
 ```
 2.Navigate to the project directory:
 
 ```bash
-  cd 4_sqldb_tshirts
+  cd PaLM_sqldb_tshirts
 ```
 3. Install the required dependencies using pip:
 
