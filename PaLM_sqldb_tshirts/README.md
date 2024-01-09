@@ -31,12 +31,12 @@ The system is intelligent enough to generate accurate queries for given question
 1.Clone this repository to your local machine using:
 
 ```bash
-  git clone https://github.com/codebasics/langchain.git
+  git clone https://github.com/Jkanishkha0305/End-to-End-LLM-Projects.git
 ```
 2.Navigate to the project directory:
 
 ```bash
-  cd 4_sqldb_tshirts
+  cd PaLM_sqldb_tshirts
 ```
 3. Install the required dependencies using pip:
 
