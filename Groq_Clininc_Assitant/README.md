@@ -31,14 +31,18 @@ Flow Diagram :
    1. Read data.  
    2. Format rows into text  
    3. Generate embeddings using ```BAAI/bge-large-en-v1.5``` (Sentence Transformer) to store in a vectorDB  
-   4. Use ```Qdrant``` API key to store it in the vectorDB  
-   5. Use ```Qdrant JWT``` by installing the ```docker``` container for Role-based Access Control  
-   6. Initialize ```DSPy-Groq``` integration using ```Groq's``` API  
-   7. Set up CoT (chain of thought) modules and signatures using ```DSPy```  
-   8. Define 5 best matching points for the context  
-   9. Define ```RAG``` Pipeline  
-   10. Build a very simple chatbot using ```Gradio``` Framework for the UI  
-   11. ```demo/launch(share = True)``` to launch the app 
+   4. Use ```Qdrant``` API key to store it in the vectorDB
+   5. Initialize Qdrant Client
+   6. Create a Qdrant Collection
+   7. Upload the Collection to the Qdrant Cloud Cluster
+   8. Use ```Qdrant JWT``` by installing the ```docker``` container for Role-based Access Control
+   9. Set up DSPy for programming  
+   10. Initialize ```DSPy-Groq``` integration using ```Groq's``` API  
+   11. Set up CoT (chain of thought) modules and signatures using ```DSPy```  
+   12. Define 5 best matching points for the context  
+   13. Define ```RAG``` Pipeline  
+   14. Build a very simple chatbot using ```Gradio``` Framework for the UI  
+   15. ```demo.launch(share = True)``` to launch the app 
    
 
 ### Tech Stack :
