@@ -27,7 +27,7 @@ Flow Diagram :
    ```
 4. Download Dataset from : [Healthcare Dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset)
 
-5. Code: -> [Notebook]()  
+5. Code: -> [Notebook](ClinicAI.ipynb)  
    1. Read data.  
    2. Format rows into text  
    3. Generate embeddings using ```BAAI/bge-large-en-v1.5``` (Sentence Transformer) to store in a vectorDB  
@@ -57,3 +57,8 @@ Flow Diagram :
 - [https://github.com/stanfordnlp/dspy](https://github.com/stanfordnlp/dspy)
 - [https://console.groq.com/docs/quickstart](https://console.groq.com/docs/quickstart)
 
+### Demo Images :
+![image](images/cliniai-4.jpg)
+![image](images/cliniai-1.jpg)
+![image](images/cliniai-2.jpg)
+![image](images/cliniai-3.jpg)
