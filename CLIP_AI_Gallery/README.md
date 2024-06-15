@@ -5,7 +5,7 @@ Smart Image Gallery powered by AI. That can perform the following Tasks:
 - Image Deduplication
 
 1. ```Dataset``` : Currently testing out with an open-source dataset called cats_vs_dogs from HuggingFace.  
-Dataset : [cats_vs_dogs](https://huggingface.co/datasets/cats_vs_dogs) contains about 23,422 images of dogs and cats.
+Dataset : [cats_vs_dogs](https://huggingface.co/datasets/microsoft/cats_vs_dogs) contains about 23,422 images of dogs and cats.
 
 2. ```Qdrant``` : Qdrant is a lightweight vector database that recently started their managed cloud services, which let you use a free cluster for trial and the option to upgrade as you use more features. We will use it to store our dataset in the form of vectors.
 
