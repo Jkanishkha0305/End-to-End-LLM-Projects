@@ -1,6 +1,10 @@
 # End-to-End LLM Projects
 
-Repo containing LLM-based projects with End-to-End deployment
+Welcome to the **End-to-End LLM Projects** repository. This repo contains various projects based on Large Language Models (LLMs) with complete end-to-end deployment processes.
+
+## Overview
+
+This repository is designed to showcase the implementation of LLMs in different use cases, providing detailed examples of how to deploy these models from start to finish. 
 
 | S.no | Project | Tech Stack | Repository | 
 |------|---------|------------|------------|
