@@ -25,7 +25,7 @@ Dataset : [cats_vs_dogs](https://huggingface.co/datasets/microsoft/cats_vs_dogs)
    ```bash
    dataset = load_dataset("cats_vs_dogs",verification_mode='no_checks').shuffle()
    ````
-4. Code : -> [Notebook]()
+4. Code : -> [Notebook](Intelligent_Image_Gallery.ipynb)
 
 
 
@@ -46,3 +46,10 @@ Dataset : [cats_vs_dogs](https://huggingface.co/datasets/microsoft/cats_vs_dogs)
 - https://www.sbert.net/examples/applications/image-search/README.html
 - https://qdrant.tech/documentation/tutorials/bulk-upload/
   
+## Demo :
+![](imgs/smartgallery1.png)
+![](imgs/smartgallery3.png)
+![](imgs/smartgallery4.png)
+![](imgs/smartgallery2.png)
+![](imgs/smartgallery5.png)
+![](imgs/smartgallery6.png)
