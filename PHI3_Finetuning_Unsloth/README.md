@@ -22,3 +22,17 @@ We will use ```Unsloth```, a cutting-edge library, to streamline the fine-tuning
 3. ```Custom Dataset``` preparation: Can be chosen from HuggingFace, Kaggle, etc., in a format suitable for finetuning.  
    (Structuring data into input-output pairs)
 4. Dataset : [dataset](https://huggingface.co/datasets/heliosbrahma/mental_health_chatbot_dataset)
+
+
+
+## Tech Stack :
+- ```Unsloth```
+- ```PHI-3```
+- ```HuggingFace```
+- ```PEFT```
+
+## References :
+ - [https://unsloth.ai/](https://unsloth.ai/)
+ - [https://github.com/unslothai/unsloth](https://github.com/unslothai/unsloth)
+ - [https://huggingface.co/datasets/heliosbrahma/mental_health_chatbot_dataset](https://huggingface.co/datasets/heliosbrahma/mental_health_chatbot_dataset)
+ 
