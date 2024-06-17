@@ -19,5 +19,6 @@ We will use ```Unsloth```, a cutting-edge library, to streamline the fine-tuning
       ```
     2. Import Necessary Libraries
 2. Choose Appropriate ```PHI-3``` variant. (mini, instruct, moderate, large)
-3. ```Custom Dataset``` preparation: Can be chosen from HuggingFace, Kaggle, etc., in a format suitable for finetuning (Structuring data into input-output pairs)
+3. ```Custom Dataset``` preparation: Can be chosen from HuggingFace, Kaggle, etc., in a format suitable for finetuning.  
+   (Structuring data into input-output pairs)
 4. Dataset : [dataset](https://huggingface.co/datasets/heliosbrahma/mental_health_chatbot_dataset)
