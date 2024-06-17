@@ -15,5 +15,6 @@ This repository is designed to showcase the implementation of LLMs in different 
 | 5. | Intelligent Image Gallery with Deduplication & Text Based Search using OpenAI CLIP | Qdrant, Gradio, ```clip-ViT-B-32``` | [Repo]() |
 | 6. | RAG without GPU using GPT4All x Mistral-7B | Qdrant, LangChain, GPT4All | [Repo]() |
 | 7. | Medical Chat Doctor by Finetuning Mistral-7B using PEFT & QLoRA | Transformers, BitsAndBytes, PEFT, Gradio | [Repo]() |
-| 8. | RAG model using Gemma | HuggingFace, Weaviate, DSPy, Gradio | [Repo]() |
+| 8. | RAG model using Gemma | HuggingFace, Weaviate, DSPy, Gradio | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/RAG_Gemma) |
+| 9. | Fine-Tuning Phi-3 with Unsloth on Custom Dataset | Unsloth, Huggingface, PEFT | [Repo]() |
 
