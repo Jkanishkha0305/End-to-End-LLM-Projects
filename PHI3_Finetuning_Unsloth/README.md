@@ -23,7 +23,18 @@ We will use ```Unsloth```, a cutting-edge library, to streamline the fine-tuning
    (Structuring data into input-output pairs)
 4. Dataset : [dataset](https://huggingface.co/datasets/heliosbrahma/mental_health_chatbot_dataset)
 
-
+5. Code : -> [Notebook](phi3-finetuning-unsloth.ipynb)
+   1. Install Libraries
+   2. Import Libraries
+   3. Load ```PHI-3-mini-4k-instruct``` model
+   4. Set Up FineTuning Parameters
+   5. Prepare Training Data, (Format the prompts suitable for fine-tuning)
+   6. Fine-Tune with Unsloth
+   7. Show current Memory Stats
+   8. Train the model
+   9. Check trained metrics
+   10. Define prompt and Inference with Fine-Tuned model
+   11. Save the Fine-Tuned Model
 
 ## Tech Stack :
 - ```Unsloth```
