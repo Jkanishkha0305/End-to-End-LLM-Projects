@@ -4,7 +4,7 @@
 1. ```Dataset``` : We will be working on a healthcare dataset that contains about 110K+ rows of patient’s queries and the doctor’s opinions. For experimentation used around 5000 randomly sampled rows from this dataset.
 So this is what the dataset looks like, 90% is being used for train and 10% is being used for eval.
 
-2. ```Forat Prompampts``` : The structure of the data contains instructions, input and output column. We have to format them in certain manner in order to fee dto the LLM. Since LLMS are fancy Transformer decoders, combine everything in certain format, tokenize and give it to the model. 
+2. ```Format Prompts``` : The structure of the data contains instructions, input and output column. We have to format them in certain manner in order to fee dto the LLM. Since LLMS are fancy Transformer decoders, combine everything in certain format, tokenize and give it to the model. 
 
 3. ```Tokeizing``` : We can tokenize the dataset using ```HuggingFace's AutoTokenizer```.  
    Note : We have used the padding token as eos_token which is end of sequence token and padding style is left so basically padding tokens will be added at the beginning of the sequence rather than in the end, why do we do that is because in decoder only architecture the output is a continuation of the input prompt — there would be gaps in the output without left padding.
