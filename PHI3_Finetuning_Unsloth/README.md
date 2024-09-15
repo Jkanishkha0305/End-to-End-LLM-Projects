@@ -1,4 +1,4 @@
-# Fine-tuning Microsoft PHI3 with Unsloth for Mental Health Chatbot Development
+# Fine-tuning Microsoft PHI3 with Unsloth for E-Commerce Chatbot Development
 
 ```Phi-3```, is a powerful large language model (LLM) from Microsoft AI, but to truly unlock its potential for specific needs, fine-tuning on custom data is crucial.   
 We will use ```Unsloth```, a cutting-edge library, to streamline the fine-tuning process of Phi-3 for our unique dataset.
