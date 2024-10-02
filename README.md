@@ -18,4 +18,4 @@ This repository is designed to showcase the implementation of LLMs in different 
 | 8. | RAG model using Gemma | HuggingFace, Weaviate, DSPy, Gradio | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/RAG_Gemma) |
 | 9. | Fine-Tuning Phi-3 with Unsloth on Custom Dataset | Unsloth, Huggingface, PEFT | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/PHI3_Finetuning_Unsloth) |
 | 10. | Multimodal Healthcare RAG using Gemini | Gemini-1.5-flash, Qdrant, Llamaindex, Gradio | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/Multimodal_Healthcare) |
-| 11. | IKEA Multimodal RAG | Gemini-1.5-flash, OpenAI API, Cohere, LlamaParse, CLIP | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/IKEA_Assembly_Rag) |
+| 11. | IKEA Multimodal RAG | Gemini-1.5-flash, OpenAI API, Cohere, LlamaParse, CLIP | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/IKEA_Assembly_RAG) |
