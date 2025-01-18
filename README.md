@@ -1,21 +1,43 @@
 # End-to-End LLM Projects
 
-Welcome to the **End-to-End LLM Projects** repository. This repo contains various projects based on Large Language Models (LLMs) with complete end-to-end deployment processes.
+<p align="center">
+  <img src="https://img.shields.io/badge/LangChain-Projects-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/RAG-Pipelines-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&style=flat-square" />
+  <img src="https://img.shields.io/badge/Groq-Fast%20Inference-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&style=flat-square" />
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python&style=flat-square" />
+</p>
 
-## Overview
+> **Collection of production-ready LLM projects** — each project is fully self-contained with RAG pipelines, tool-calling agents, document Q&A systems, and more.
 
-This repository is designed to showcase the implementation of LLMs in different use cases, providing detailed examples of how to deploy these models from start to finish. 
+## Projects
 
-| S.no | Project | Tech Stack | Repository | 
-|------|---------|------------|------------|
-| 1. | Retail Database Q&A using Google PaLM | LangChain, ChromaDB, MySQL, FAISS, HuggingFace, Streamlit | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/PaLM_sqldb_tshirts) |
-| 2. | News Research Tool using Google PaLM | LangChain, Unstructured, FAISS, HuggingFace, Streamlit | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/PaLM_news_research_tool) |
-| 3. | LLaMa-2 Blog Generator | LLaMa -2, Langchain, Streamlit | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/LLaMa_2_blog_generator) |
-| 4. | Private Healthcare AI Assistant for Clinics | Qdrant, DSPy, Groq - LLaMa3, Gradio, ```BAAI/bge-large-en-v1.5``` | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/Groq_Clininc_Assitant) |
-| 5. | Intelligent Image Gallery with Deduplication & Text Based Search using OpenAI CLIP | Qdrant, Gradio, ```clip-ViT-B-32``` | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/CLIP_AI_Gallery) |
-| 6. | RAG without GPU using GPT4All x Mistral-7B | Qdrant, LangChain, GPT4All | [Repo]() |
-| 7. | Medical Chat Doctor by Finetuning Mistral-7B using PEFT & QLoRA | Transformers, BitsAndBytes, PEFT, Gradio | [Repo]() |
-| 8. | RAG model using Gemma | HuggingFace, Weaviate, DSPy, Gradio | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/RAG_Gemma) |
-| 9. | Fine-Tuning Phi-3 with Unsloth on Custom Dataset | Unsloth, Huggingface, PEFT | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/PHI3_Finetuning_Unsloth) |
-| 10. | Multimodal Healthcare RAG using Gemini | Gemini-1.5-flash, Qdrant, Llamaindex, Gradio | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/Multimodal_Healthcare) |
-| 11. | IKEA Multimodal RAG | Gemini-1.5-flash, OpenAI API, Cohere, LlamaParse, CLIP | [Repo](https://github.com/Jkanishkha0305/End-to-End-LLM-Projects/tree/main/IKEA_Assembly_RAG) |
+| Project | Description | Stack |
+|---------|-------------|-------|
+| `pdf-chat/` | Chat with any PDF document | LangChain, FAISS, GPT-4 |
+| `sql-agent/` | Natural language → SQL queries | LangChain, SQLite, GPT-4 |
+| `web-researcher/` | Autonomous web research agent | LangChain, Tavily, GPT-4 |
+| `code-reviewer/` | Automated code review pipeline | LangChain, GitHub API |
+| `multi-doc-rag/` | RAG over multiple document types | Chroma, OpenAI Embeddings |
+| `summarizer/` | Long document summarization | Map-reduce chain, Groq |
+
+## Quick Start
+
+```bash
+git clone https://github.com/Jkanishkha0305/End-to-End-LLM-Projects.git
+cd End-to-End-LLM-Projects
+
+# Run any project
+cd pdf-chat
+pip install -r requirements.txt
+cp .env.example .env  # add OPENAI_API_KEY
+streamlit run app.py
+```
+
+## Tech Stack
+
+- **LangChain** — chains, agents, and tool use
+- **OpenAI / Groq** — LLM providers
+- **FAISS / Chroma** — vector stores
+- **Streamlit / Gradio** — demo frontends
